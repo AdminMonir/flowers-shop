@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+
+}
+main{
+    height: 3000px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    background: rgba(214, 81, 109, 0.1);
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 4px;
+}
+.menus>ul{
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    margin-right: 90px;
+   
+}
+.nav li:hover{
+    color: rgb(255, 206, 206);
+   
+   
+}
+
+.first_section{
+    max-width: 100px;
+    height: 450px;
+    display: flex;
+    justify-content:space-between ;
+    padding: 100px;
+    align-items: center;
+    
+}
+.box1_header{
+   
+color: #272727;
+font-size: 50px;
+
+}
+
+.box1_discription{
+color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+text-align: left;
+
+
+}
+.button{
+margin-top: 20px;
+padding: 20px 43px;
+border-radius: 5px;
+background: #E55473;
+
+
+}
+
+.second{
+    padding:100px;
+    height: 700px;
+    background: #FFF;
+   
+}
+
+.box2_section{
+    padding-left: 210px;
+}
+.box2_image{
+    height: 540px;
+}
+
+
+h2{
+    
+ text-align: center;
+    
+   
+}
+p{
+    text-align: center;
+    width: 500px;
+    margin: auto !important;
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 10px;
+    font-family: Lato;
+}
+
+.container{
+    padding-top:40px ;
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+}
+
+.section_box1{
+    width: 410px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+
+
+.section_box2{
+    width: 410px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+.section_box3{
+    width: 410px;
+    height: 438px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+.image{
+    padding: 90px 90px 90px ;
+    padding-bottom: 0;
+    width: 200px;
+    height: 348px;
+    
+    
+}
+a{
+display: block;
+text-align: center;
+padding-top:30px;
+   
+}
+.section_three{
+    padding-top: 100px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    justify-content: space-around;
+    align-items: center;
+}
+.button1{
+ margin-left: 180px;
+ margin-top: 20px;
+padding: 15px 30px;
+border-radius: 18px;
+background: #E55473;
+}
+.instagram{
+    padding:100px;
+    height: 0px;
+}
+.instagram_title{
+    text-align: center;
+}
+.instagram_discription{
+    padding-top: 25px;
+
+}
+.instagram2{
+  
+    padding:10px;
+    display: flex;
+    justify-content:space-around;
+}
+.picin{
+height: 280px;
+width: 192px;
+padding: 20px;
+}
+
+
+
+
+    .scarch_container{
+        height: 600px;
+        background-image: url("./Flower Asset/Rectangle 9.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:76%;
+        text-align: center;
+        font-display: flex;
+        align-items: center;
+        padding-top:420px;
+        
+        }
+        
+        .scarch__text{
+            text-align: center;;
+        }
+        .btn-btn{
+            width: 150px;
+            height: 35px;
+            border-radius: 5px;
+            background: #E55473;
+        }
+        
+        .inputFild{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+      
+        .footer_container{
+            height: 300px;
+            background-color: #000;
+            text-align: center;
+            
+            
+            }
+           .footer_title{
+            padding-top:100px;
+            color: #E55473;
+            font-size: 48px;
+            font-weight: 800;
+            line-height: normal;
+           }
+           span{
+            color: white;
+           }
+           color: rgba(255, 255, 255, 0.90);
+           .footer_text{
+          
+            color: rgba(255, 255, 255, 0.90);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+           }
+.copyright{
+    padding-top: 10px;;
+    color: rgba(255, 255, 255, 0.40);
+font-size: 14px;
+font-weight: 400;
+
+}
