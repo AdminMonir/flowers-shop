@@ -9,15 +9,14 @@ body{
     font-family: 'Roboto Slab', serif;
 
 }
-main{
-    height: 3000px;
-}
+
+
+ /* Css  For nav /my unique task */
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-
+    margin-top: 5px;
     background: rgba(214, 81, 109, 0.2);
 }
 
@@ -43,15 +42,22 @@ main{
    
 }
 
+
+/* Css for task one start here  */
+.main{
+    height: 2880px;
+}
+
 .first_section{
-    max-width: 100px;
+    
     height: 400px;
-    max-width: 100%;
+ 
     display: flex;
     justify-content:space-between ;
     padding: 100px;
     align-items: center;
     background: rgba(214, 81, 109, 0.1);
+
     
 }
 .box1_header{
@@ -62,12 +68,19 @@ font-size: 50px;
 }
 
 .box1_discription{
+
 color: rgba(39, 39, 39, 0.60);
 font-size: 16px;
 text-align: left;
-
-
 }
+.box2_section{
+display: flex;
+justify-content:center;
+text-align: center;
+}
+
+
+
 .button{
 margin-top: 20px;
 padding: 20px 43px;
@@ -76,6 +89,13 @@ background: #E55473;
 
 
 }
+
+
+
+
+
+/* Css for Bonus/second task/main task or Features start here */
+
 
 .second{
     height: 600px;
@@ -152,6 +172,12 @@ text-align: center;
 padding-top:30px;
    
 }
+
+
+
+/* Css for task three */
+
+
 .section_three{
     height: 500px;
     padding-top: 40px;
@@ -174,16 +200,22 @@ padding-top:30px;
 padding: 15px 30px;
 border-radius: 18px;
 background: #E55473;
+
 }
+
+/* Css for task four */
+
 .instagram{
     padding:100px;
     height: 0px;
+    display: block;
+    text-align: center;
 }
 .instagram_title{
     text-align: center;
 }
 .instagram_discription{
-    padding-top: 25px;
+    padding-top: 20px;
 
 }
 .instagram2{
@@ -200,6 +232,7 @@ padding: 20px;
 
 
 
+/* Css for Task five or Scarch containaer */
 
     .scarch_container{
         height: 600px;
@@ -234,16 +267,20 @@ padding: 20px;
             border-radius: 5px;
         }
 
+
+
+
+        /* Css for footer */
       
         .footer_container{
-            height: 600px;
+            height: 400px;
             background-color: #000000;
             text-align: center;
             
             
             }
            .footer_title{
-            padding-top:200px;
+            padding-top:100px;
             color: #E55473;
             font-size: 40px;
            }
